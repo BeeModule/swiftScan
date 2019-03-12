@@ -51,7 +51,7 @@ class LBXScanNetAnimation: UIImageView {
         
         self.alpha = 0.0;
         
-        UIView.animate(withDuration: 1.2, animations: { () -> Void in
+        UIView.animate(withDuration: 1.5, animations: { () -> Void in
             
             self.alpha = 1.0;
             

@@ -147,7 +147,7 @@ open class LBXScanWrapper: NSObject,AVCaptureMetadataOutputObjectsDelegate {
         captureOutput(output, didOutputMetadataObjects: metadataObjects, from: connection)
     }
     
-    func start()
+    open func start()
     {
         if !session.isRunning
         {
@@ -155,7 +155,7 @@ open class LBXScanWrapper: NSObject,AVCaptureMetadataOutputObjectsDelegate {
             session.startRunning()
         }
     }
-    func stop()
+    open func stop()
     {
         if session.isRunning
         {
